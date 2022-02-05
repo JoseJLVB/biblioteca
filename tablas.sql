@@ -11,7 +11,7 @@ create table autores(
 );
 
 create table libros(
-    isbn varchar(13) not null,
+    isbn varchar(15) not null,
     titulo varchar(255) not null,
     num_pagina int not null,
     primary key (isbn)
@@ -42,7 +42,7 @@ create table direcciones(
 );
 
 create table socios(
-    rut varchar(13) not null,
+    rut varchar(12) not null,
     nombre varchar(255) not null,
     apellido varchar(255) not null,
     telefono varchar(255) not null,
