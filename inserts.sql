@@ -1,3 +1,5 @@
+--se insertan los datos en las tablas
+
 INSERT INTO autores(codigo,nombre,apellido,fecha_nacimiento,fecha_fallecimiento) VALUES (3,'JOSE','SALGADO','1968-01-01','2020-01-01');
 INSERT INTO autores(codigo,nombre,apellido,fecha_nacimiento,fecha_fallecimiento) VALUES (4,'ANA','SALGADO','1972-01-01',NULL);
 INSERT INTO autores(codigo,nombre,apellido,fecha_nacimiento,fecha_fallecimiento) VALUES (1,'ANDRES','ULLOA','1982-01-01',NULL);

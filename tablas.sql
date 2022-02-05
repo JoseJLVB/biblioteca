@@ -1,6 +1,9 @@
 -- Se crea Base de datos Biblioteca
 create database Biblioteca;
 
+
+--Se crean Las Tablas
+
 create table autores(
     codigo serial not null,
     nombre varchar(255) not null,
@@ -57,7 +60,7 @@ create table prestamos(
     fecha_dev_esperada date not null,
     fecha_dev_real date not null,
     rut_socios varchar(13) not null,
-    isbn_libros varchar(13)not null,
+    isbn_libros varchar(15)not null,
     primary key (id),
     foreign key (rut_socios) references socios(rut),
     foreign key (isbn_libros) references libros(isbn)
